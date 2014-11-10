@@ -1,4 +1,3 @@
-'use strict';
 
 var linkedL = require('./linkedL');
 
@@ -45,5 +44,7 @@ dlist.prototype.dispReverse(){
     currNode = currNode.previous;
   }
 }
+
+
 
 module.exports = dlist;
